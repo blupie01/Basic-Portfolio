@@ -1,0 +1,49 @@
+@font-face {
+	font-family: lottepaperfang;
+	src: url(./fonts/lottepaperfang.ttf);
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+	height: 6em;
+	background-color: blue;
+
+}
+
+#header-name {
+	float: left;
+	font-family: lottepaperfang;
+	font-size: 2.5em;
+	position: relative;
+	top: 50%;
+	transform: translateY(-60%);
+	padding-left: 8%;
+}
+
+#header-link-list {
+	float: right;
+	position: relative;
+	top: 50%;
+	transform: translateY(-60%); 
+	padding-right: 8%;
+}
+
+.header-links {
+	display: inline-block;
+	padding-left: 20px;
+	font-family: lottepaperfang;
+	font-size: 1.8em;
+}
