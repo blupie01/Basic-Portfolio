@@ -3,9 +3,14 @@
 	src: url(./fonts/lottepaperfang.ttf);
 }
 
+@font-face {
+	font-family: poiretOne;
+	src: url(./fonts/PoiretOne-Regular.ttf);
+}
+
 .parallax { 
     /* The image used */
-    background-image: url("img_parallax.jpg");
+    background-image: url("./pictures/autumn-trees.jpg");
 
     /* Set a specific height */
     height: 500px; 
@@ -17,10 +22,18 @@
     background-size: cover;
 }
 
+div {
+	margin: 0 auto;
+}
+
+h2 {
+	margin: 0 auto;
+	padding: 20px;
+}
+
 #header {
 	height: 6em;
-	background-color: blue;
-
+	background-color: rgba(42, 44, 56, .75);
 }
 
 #header-name {
@@ -31,13 +44,15 @@
 	top: 50%;
 	transform: translateY(-60%);
 	padding-left: 8%;
+	margin: 0px;
+	color: rgba(219, 140, 140, 1);
 }
 
 #header-link-list {
 	float: right;
 	position: relative;
 	top: 50%;
-	transform: translateY(-60%); 
+	transform: translateY(-55%); 
 	padding-right: 8%;
 }
 
@@ -46,4 +61,32 @@
 	padding-left: 20px;
 	font-family: lottepaperfang;
 	font-size: 1.8em;
+}
+
+#intro-heading {
+	text-align: center;
+	font-family: lottepaperfang;
+	color: rgb(48, 23, 34);
+	height: 450px;
+}
+
+#intro-container {
+	position: relative;
+	top: 50%;
+	transform: translateY(-60%); 
+}
+
+#intro-mainheader {
+	margin: 0px 0px 20px;
+	font-size: 6em;
+}
+
+#intro-subheader {
+	font-size: 2.5em;
+}
+
+#about {
+	text-align: center;
+	font-family: poiretOne;
+	background-color: rgba(42, 44, 56, .75);
 }
