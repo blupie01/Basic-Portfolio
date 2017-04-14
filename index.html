@@ -1,48 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Jeffrey Chou</title>
-	<link rel="stylesheet" href="./public/reset.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css" />
-	<link rel="stylesheet" href="./public/style.css" />
-</head>
-<body class="parallax">
-	<nav id="header">
-		<ul id="header-link-list">
-			<li class="header-links"><a href="#about">About</a></li>
-			<li class="header-links"><a href="#my-work">Portfolio</a></li>
-			<li class="header-links"><a href="#contact">Contact</a></li>
-		</ul>
-	</nav>
-	
-	<header id="intro-heading">
-		<section id="intro-container">
-			<h1 id="intro-mainheader">JEFFREY CHOU</h1>
-			<p id="intro-subheader">WEB DEVELOPER</p>
-		</section>
-	</header>
+<html>
+	<head>
+		<title>About Me</title>
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
 
-	<section>
-		
-		<div id="about">
-			<h2>Hi, my name is Jeff</h2>
-			<p></p>
+	<body>
+		<div class="nav">
+			<div class="wrapper">
+				<h1 class="my_name">
+					Jeffrey Chou
+				</h1>
+				<ul>
+					<li><a href="index.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
 		</div>
 
-		<div id="my-work">
+		<div class="wrapper">
+			<div class="main_content">
+				<div id="about_me">
+ 					<h2>About Me</h2>
 
+					<img style="width:250px; height:250px;" src="./assets/images/me.jpg"/>
+					<p id="about-me">What I love about coding is the fact that you never stop learning about it! The technologies are always growing and advancing so you have to always adapt with them.<br/><br/>
+					The thought of chiseling away at problems for hours or days on end and then seeing the results of your labor is something that drives me. Full Stack Development allows me to be creative, innovative and analytical at the same time and these are I that I have ever wanted to find in a career.<br/><br/>
+					When I'm not coding you can find me meditating and contemplating the vastness of the universe.<br/><br/>
+					</p>
+				</div>
+			</div>
+
+			<div class="contact_container">
+				<div class="contact_box_margin">
+					<h2>Connect with Me</h2>
+					<section id="links">
+						<a href="#"><img src="assets/images/github_icon.jpeg"/></a>
+						<a href="#" id="middle_img"><img src="assets/images/linkedin_icon.jpeg"/></a>
+						<a href="#"><img src="assets/images/stackoverflow_icon.jpeg"/></a>
+					</section>
+				</div>
+			</div>
 		</div>
 
-		<div id="contact">
-
-		</div>
-	
-	</section>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
-</body>
+		<footer>
+			<div class="container">
+				<p>&copy; Copyright 2016 Jeffrey Chou</p>
+			</div>
+		</footer>
+	</body>
 </html>
