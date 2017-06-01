@@ -188,3 +188,15 @@ footer p {
 	font-size: 12px;
 	color: #ffffff;
 }
+
+.portfolio_footer {
+	background-color: #666666;
+	text-align: center;
+	min-width: 100%;
+	border-top: 8px solid #4aaaa5;
+	position: relative;
+	bottom: 0px;
+	clear: both;
+	padding: 35px 0px;
+	margin-top: 75%;
+}
